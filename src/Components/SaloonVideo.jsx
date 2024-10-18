@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause } from "@fortawesome/free-solid-svg-icons";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Technology from '../assets/logtech.png'
 
 
 const SaloonVideo = () => {
@@ -68,7 +69,7 @@ const SaloonVideo = () => {
         <div className=" w-full h-[300px] md:h-[300px] flex justify-center items-center">
           <img
           data-aos="fade-left"
-            src="src/assets/logtech.png"
+            src={Technology}
             alt="Technology uses logo"
             className="scroll-smooth trasnition-all duration-700 ease-in-out w-full h-[200px] md:h-[250px] object-contain"
           />
