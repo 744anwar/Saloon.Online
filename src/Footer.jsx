@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import AppStore from "./assets/appstore.png";
 import PlayStore from "./assets/playstore.png";
+import SaloonLogo from "./assets/saloon-logo.png"
 
 const Footer = () => {
   useEffect(() => {
@@ -46,7 +47,7 @@ const Footer = () => {
         />
         <button
           data-aos="fade-left"
-          className="scroll-smooth trasnition-all duration-700 ease-in-out bg-white text-customRed p-2.5 rounded-full font-sans font-semibold capitalize text-2xl"
+          className="scroll-smooth trasnition-all duration-700 ease-in-out bg-white text-customRed p-2 md:p-2.5 rounded-full font-sans font-medium md:font-semibold capitalize text-base md:text-2xl"
         >
           Subscribe
         </button>
@@ -55,7 +56,7 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-center gap-2.5">
           <img
             data-aos="fade-right"
-            src="src/assets/saloon-logo.png"
+            src={SaloonLogo}
             alt="saloon logo"
             className="scroll-smooth trasnition-all duration-700 ease-in-out h-20 w-full md:w-1/4 hover:cursor-pointer object-contain"
           />
