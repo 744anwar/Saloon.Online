@@ -55,9 +55,9 @@ const SaloonVideo = () => {
           </button>
         </div>
       </div>
-      <div className="m-0 p-2.5 grid grid-cols-1 md:grid-cols-2 justify-center items-center w-full h-[400px] md:h-[400px] ">
-        <div data-aos="fade-right" className="scroll-smooth trasnition-all duration-700 ease-in-out w-full h-[200px] md:h-[300px] flex flex-col justify-center items-start p-5 md:p-20">
-          <h2 className="font-sans text-customRed font-semibold text-xl pb-2.5">Designed & Developed on Latest Tech</h2>
+      <div className="m-0 p-0 md:p-2.5 grid grid-cols-1 md:grid-cols-2 justify-center items-center w-full h-[400px] md:h-[400px] ">
+        <div data-aos="fade-right" className="scroll-smooth trasnition-all duration-700 ease-in-out w-full h-[200px] md:h-[300px] flex flex-col justify-center items-start m-2.5 p-0 md:p-20">
+          <h2 className="font-sans text-customRed font-semibold text-base md:text-xl pt-2.5">Designed & Developed on Latest Tech</h2>
           <p className="font-sans text-Gray font-normal text-base text-justify">
             Our Website & App is skillfully crafted using WordPress for
             versatile content management, .Net for robust backend functionality,
