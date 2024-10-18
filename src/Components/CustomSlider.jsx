@@ -1,16 +1,24 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons"; 
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Start from '../assets/started.png'
+import Customer from '../assets/customer.png'
+import Signup from '../assets/signup.png'
+import Signup2 from '../assets/signup2.png'
+import Signup3 from '../assets/signup3.png'
+import Signup4 from '../assets/signup4.png'
+import Signup5 from '../assets/signup5.jpg'
+
 
 const images = [
-  { src: "src/assets/started.png", alt: "slider image 1" },
-  { src: "src/assets/customer.png", alt: "slider image 2" },
-  { src: "src/assets/signup.png", alt: "slider image 3" },
-  { src: "src/assets/signup2.png", alt: "slider image 4" },
-  { src: "src/assets/signup3.png", alt: "slider image 5" },
-  { src: "src/assets/signup4.png", alt: "slider image 6" },
-  { src: "src/assets/signup5.jpg", alt: "slider image 7" },
+  { src: Start, alt: "slider image 1" },
+  { src: Customer, alt: "slider image 2" },
+  { src: Signup, alt: "slider image 3" },
+  { src: Signup2, alt: "slider image 4" },
+  { src: Signup3, alt: "slider image 5" },
+  { src: Signup4, alt: "slider image 6" },
+  { src: Signup5, alt: "slider image 7" },
 ];
 
 const CustomSlider = () => {
@@ -123,14 +131,3 @@ const CustomSlider = () => {
 export default CustomSlider;
 
 
-//           effect={'coverflow'}
-//           grabCursor={true}
-//           centeredSlides={true}
-//           loop={true}
-//           slidesPerView={'auto'}
-//           coverflowEffect={{
-//             rotate: 0,
-//             stretch: 0,
-//             depth: 100,
-//             modifier: 2.5,
-//           }}
