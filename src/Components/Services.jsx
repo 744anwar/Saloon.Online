@@ -2,6 +2,13 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Appointt from '/AppBook.svg'
+import Chat from '/chat.svg'
+import Offer from '/notifications.svg'
+import ServicesImg from '../assets/servicesimg.png'
+import Register from '/registersaloon.svg'
+import Staff from '/Management.svg'
+import Control from '/appcontrol.svg'
 
 
 function Services() {
@@ -35,7 +42,7 @@ useEffect(() => {
               <div className="flex gap-5 md:gap-10 items-center py-2.5">
                 <img
                 data-aos="zoom-in"
-                  src="public/AppBook.svg"
+                  src={Appointt}
                   alt="appointment booking"
                   className="scroll-smooth transition-all duration-700 ease-in-out h-10 w-10"
                 />
@@ -51,7 +58,7 @@ useEffect(() => {
               <div className="flex gap-5 md:gap-10 items-center py-2.5">
                 <img
                 data-aos="zoom-in"
-                  src="public/chat.svg"
+                  src={Chat}
                   alt="appointment booking"
                   className="scroll-smooth transition-all duration-700 ease-in-out h-10 w-10"
                 />
@@ -67,7 +74,7 @@ useEffect(() => {
               <div className="flex gap-5 md:gap-10 items-center py-2.5">
                 <img
                 data-aos="zoom-in"
-                  src="public/notifications.svg"
+                  src={Offer}
                   alt="appointment booking"
                   className="scroll-smooth trasnition-all duration-700 ease-in-out h-10 w-10"
                 />
@@ -83,7 +90,7 @@ useEffect(() => {
           <div className="flex justify-center items-center">
             <img
             data-aos="zoom-in"
-              src="src/assets/servicesimg.png"
+              src={ServicesImg}
               alt="services image"
               className="scroll-smooth trasnition-all duration-700 ease-in-out h-full w-full"
             />
@@ -96,7 +103,7 @@ useEffect(() => {
               <div className="flex gap-5 md:gap-10 items-center py-2.5">
                 <img
                 data-aos="zoom-in"
-                  src="public/registersaloon.svg"
+                  src={Register}
                   alt="appointment booking"
                   className="scroll-smooth trasnition-all duration-700 ease-in-out h-10 w-10"
                 />
@@ -112,7 +119,7 @@ useEffect(() => {
               <div className="flex gap-5 md:gap-10 items-center py-2.5">
                 <img
                 data-aos="zoom-in"
-                  src="public/Management.svg"
+                  src={Staff}
                   alt="appointment booking"
                   className="scroll-smooth trasnition-all duration-700 ease-in-out h-10 w-10"
                 />
@@ -128,7 +135,7 @@ useEffect(() => {
               <div className="flex gap-5 md:gap-10 items-center py-2.5">
                 <img
                 data-aos="zoom-in"
-                  src="public/appcontrol.svg"
+                  src={Control}
                   alt="appointment booking"
                   className="scroll-smooth trasnition-all duration-700 ease-in-out h-10 w-10"
                 />
