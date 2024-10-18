@@ -2,6 +2,9 @@ import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import News1 from '../assets/news1.png'
+import News2 from '../assets/news2.png'
+import News3 from '../assets/news1.png'
 
 const NewsCard = ({ title, date, description, additionalContent, imgSrc }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -48,21 +51,21 @@ function Latestnews() {
       date: "October 10, 2024 // No Comments",
       description: `Great news for barbers! We’re offering a special promotion: your first month on Saloon.online is completely free.`,
       additionalContent:'This is a fantastic opportunity to explore our platform, register your salon, and start managing your appointments without any initial costs. Sign up today and enjoy the benefits of Saloon.online from August 1, 2024.',
-      imgSrc: "src/assets/news1.png",
+      imgSrc: News1,
     },
     {
       title: "New Feature Updates Coming Soon!",
       date: "October 10, 2024 // No Comments",
       description: `Stay tuned for exciting new features coming to Saloon.online! We’re continuously working to improve your experience.`,
       additionalContent:'Our upcoming update will include enhanced appointment management tools, new customization options for barber profiles, and improved user interface for seamless navigation. Keep an eye out for the update, launching on August 1, 2024.',
-      imgSrc: "src/assets/news2.png",
+      imgSrc: News2,
     },
     {
       title: "Exciting Offer: Book 10 Appointments, Get 1 Free",
       date: "October 10, 2024 // No Comments",
       description: `We’re thrilled to announce a special offer for our loyal customers! If you book 10 appointments within 20 days, your next appointment will be absolutely free.`,
       additionalContent:'This is our way of saying thank you for choosing Saloon.online. Start booking now and take advantage of this limited-time offer!',
-      imgSrc: "src/assets/news1.png",
+      imgSrc: News3,
     },
   ];
   return (
