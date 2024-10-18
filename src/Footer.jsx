@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import AppStore from "./assets/appstore.png";
 import PlayStore from "./assets/playstore.png";
 import SaloonLogo from "./assets/saloon-logo.png"
+import { Link } from "react-scroll";
 
 const Footer = () => {
   useEffect(() => {
@@ -37,10 +38,10 @@ const Footer = () => {
           Companies
         </p>
       </div>
-      <div className="flex justify-between bg-customRed rounded-full md:rounded-full px-5 md:px-10 p-2 md:p-5 mx-2 md:mx-40 mt-2 md:mt-5">
+      <div className="flex justify-between bg-customRed rounded-full md:rounded-full px-2 md:px-10 p-2 md:p-5 mx-2 md:mx-40 mt-2 md:mt-5">
         <input
           data-aos="fade-right"
-          className="scroll-smooth trasnition-all duration-700 ease-in-out rounded-full p-2.5 focus:outline-none font-sans font-normal normal-case text-base text-Gray bg-white"
+          className="scroll-smooth trasnition-all duration-700 ease-in-out rounded-full p-1 md:p-2.5 focus:outline-none font-sans font-normal normal-case text-base text-Gray bg-white"
           type="email"
           placeholder="example123@gmail.com"
           required
@@ -53,13 +54,15 @@ const Footer = () => {
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-1 md:gap-5 px-2 md:px-5 mt-2 md:mt-10">
+      
         <div className="flex flex-col justify-start items-center gap-2.5">
+        <Link to="hero" smooth={true} duration={500}>
           <img
             data-aos="fade-right"
             src={SaloonLogo}
             alt="saloon logo"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out h-20 w-full md:w-1/4 hover:cursor-pointer object-contain"
-          />
+            className="scroll-smooth trasnition-all duration-700 ease-in-out h-20 w-full md:w-2/3 hover:cursor-pointer object-contain object-center"
+          /></Link>
           <p className="font-sans font-normal normal-case text-base text-justify">
             Be the first to find out about exclusive deals, the latest Look
             books trends. We’re on a mission to build a better future where
@@ -169,14 +172,14 @@ const Footer = () => {
             </h2>
           </a>
         </div>
-        <div className="flex flex-col justify-start items-start px-2 gap-2">
+        <div className="grid grid-cols-1  px-2 gap-2">
           <h2
             data-aos="fade-left"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold capitalize text-3xl text-black"
+            className="scroll-smooth transition-all duration-700 ease-in-out font-sans font-semibold capitalize text-3xl text-black"
           >
             download now
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-1 w-full gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-1 h-20 md:h-40 w-full gap-2.5 md:gap-0">
             <a
               href="https://play.google.com/store/games?hl=en"
               target="_blank"
@@ -186,7 +189,7 @@ const Footer = () => {
                 data-aos="fade-left"
                 src={AppStore}
                 alt="app store logo"
-                className="scroll-smooth trasnition-all duration-700 ease-in-out h-10 md:h-20 w-10 md:w-1/2 object-contain"
+                className="scroll-smooth transition-all duration-700 ease-in-out h-20 md:h-20 w-full md:w-1/2 object-contain float-left "
               />
             </a>
             <a
@@ -198,7 +201,7 @@ const Footer = () => {
                 data-aos="fade-left"
                 src={PlayStore}
                 alt="play store logo"
-                className="scroll-smooth trasnition-all duration-700 ease-in-outs h-10 md:h-20 w-10 md:w-1/2 object-cover md:object-contain"
+                className="scroll-smooth transition-all duration-700 ease-in-out h-20 md:h-20 w-full md:w-1/2 object-contain float-left"
               />
             </a>
           </div>

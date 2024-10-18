@@ -41,7 +41,7 @@ function Header() {
     >
       {/* Mobile view: logo and menu button */}
       <div className="w-full h-20 px-2 py-2 sm:hidden flex justify-between">
-        <Link to="home" smooth={true} duration={500}>
+        <Link to="hero" smooth={true} duration={500}>
           <img src={SaloonLogo} alt="Saloon Logo" className="w-3/4 h-16 float-start" />
         </Link>
         
