@@ -13,6 +13,8 @@ import Datetime from "/datetimeicon.svg";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useState, useEffect } from "react";
+import AppStore from '../assets/appstore.png';
+import PlayStore from '../assets/playstore.png';
 
 const IconClickable = () => {
   const [visibleImage, setVisibleImage] = useState("image-1");
@@ -148,8 +150,8 @@ const IconClickable = () => {
           </h2>
         </div>
         <div className="flex justify-between md:justify-between md:w-2/3 md:px-0 px-5">
-          <img data-aos="fade-right" src="src/assets/appstore.png" alt="" className="scroll-smooth transition-all duration-700 ease-in-out md:h-16 h-12 w-28 md:w-40" />
-          <img data-aos="fade-left" src="src/assets/playstore.png" alt="" className="scroll-smooth transition-all duration-700 ease-in-out md:h-16 h-12 w-28 md:w-40" />
+          <img data-aos="fade-right" src={AppStore} alt="App Store logo" className="scroll-smooth transition-all duration-700 ease-in-out md:h-16 h-12 w-28 md:w-40" />
+          <img data-aos="fade-left" src={PlayStore} alt="Play store logo" className="scroll-smooth transition-all duration-700 ease-in-out md:h-16 h-12 w-28 md:w-40" />
         </div>
       </div>
     </div>
