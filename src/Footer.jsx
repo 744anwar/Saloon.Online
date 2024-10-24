@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import AppStore from "./assets/appstore.png";
 import PlayStore from "./assets/playstore.png";
-import SaloonLogo from "./assets/saloon-logo.png"
+import SaloonLogo from "./assets/saloon-logo.png";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
     });
   }, []);
   return (
-    <footer className="w-full h-full m-0 py-1 md:py-5 px-1 md:px-2.5 bg-[#F2F5F7] md:rounded-tl-[150px] md:rounded-tr-[150px] ">
+    <footer className="w-full h-full m-0 py-1 md:py-5 px-1 md:px-10 bg-[#F2F5F7] md:rounded-tl-[150px] md:rounded-tr-[150px] ">
       <div className="flex flex-col justify-center items-center w-full">
         <h2
           data-aos="zoom-in"
@@ -54,15 +54,15 @@ const Footer = () => {
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-1 md:gap-5 px-2 md:px-5 mt-2 md:mt-10">
-      
         <div className="flex flex-col justify-start items-center gap-2.5">
-        <Link to="hero" smooth={true} duration={500}>
-          <img
-            data-aos="fade-right"
-            src={SaloonLogo}
-            alt="saloon logo"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out h-20 w-full md:w-2/3 hover:cursor-pointer object-contain object-center"
-          /></Link>
+          <Link to="hero" smooth={true} duration={500}>
+            <img
+              data-aos="fade-right"
+              src={SaloonLogo}
+              alt="saloon logo"
+              className="scroll-smooth trasnition-all duration-700 ease-in-out h-20 w-full md:w-2/3 hover:cursor-pointer object-contain object-center"
+            />
+          </Link>
           <p className="font-sans font-normal normal-case text-base text-justify">
             Be the first to find out about exclusive deals, the latest Look
             books trends. We’re on a mission to build a better future where
@@ -72,42 +72,50 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-start px-1 md:px-2 gap-1 md:gap-2">
           <h2
             data-aos="zoom-in"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold capitalize text-3xl text-black"
+            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold capitalize text-xl text-black"
           >
-            Contact
+            Contact Information
           </h2>
-          <strong
-            data-aos="fade-down"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold text-2xl capitalize text-Gray"
-          >
-            phone
-          </strong>
-          <p className="font-sans font-normal normal-case text-Gray text-base">
-            +92 3334455666
-          </p>
-          <strong
-            data-aos="fade-left"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold text-2xl capitalize text-Gray"
-          >
-            email
-          </strong>
-          <p className="font-sans font-normal normal-case text-Gray text-base">
-            example@gmail.com
-          </p>
-          <strong
-            data-aos="fade-up"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold text-2xl capitalize text-Gray"
-          >
-            address
-          </strong>
-          <address className="font-sans font-normal normal-case text-Gray text-base">
-            Solochoicez Pvt Ltd, Street No.39, G-10/4, Islamabad.
-          </address>
+          <div className="flex flex-col space-y-4">
+            <div className="flex justify-start items-baseline">
+              <h2
+                data-aos="fade-down"
+                className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-medium text-lg capitalize text-Gray"
+              >
+                phone:
+              </h2>
+              <p className="font-sans font-normal normal-case text-Gray text-base pl-2.5">
+                +923334455666
+              </p>
+            </div>
+            <div className="flex justify-start items-baseline">
+              <h2
+                data-aos="fade-left"
+                className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-medium text-lg capitalize text-Gray"
+              >
+                email:
+              </h2>
+              <p className="font-sans font-normal normal-case text-Gray text-base pl-2.5">
+                example@gmail.com
+              </p>
+            </div>
+            <div className="flex justify-start items-baseline">
+              <h2
+                data-aos="fade-up"
+                className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-medium text-lg capitalize text-Gray"
+              >
+                address:
+                <small className="font-sans font-normal normal-case text-Gray text-base pl-2.5">
+                  Solochoicez Pvt Ltd, Street No.39, G-10/4, Islamabad.
+                </small>
+              </h2>
+            </div>
+          </div>
         </div>
         <div className="flex flex-col justify-start items-start px-2 gap-2 md:gap-5">
           <h2
             data-aos="zoom-in"
-            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold capitalize text-3xl text-black"
+            className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-semibold capitalize text-xl text-black"
           >
             social media
           </h2>
@@ -175,7 +183,7 @@ const Footer = () => {
         <div className="grid grid-cols-1  px-2 gap-2">
           <h2
             data-aos="fade-left"
-            className="scroll-smooth transition-all duration-700 ease-in-out font-sans font-semibold capitalize text-3xl text-black"
+            className="scroll-smooth transition-all duration-700 ease-in-out font-sans font-semibold capitalize text-xl text-black"
           >
             download now
           </h2>
@@ -207,6 +215,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <hr className="mx-5 my-2.5 border-1 border-Gray"></hr>
       <div className="flex justify-center items-center w-full">
         <p className="font-sans font-normal text-base normal-case text-Gray text-center">
           Solochoicez 2024 All Right Reserved
