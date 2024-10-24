@@ -37,7 +37,7 @@ function Header() {
     <header
       className={`sticky top-0 z-10 transition duration-300 ease-in-out ${
         isScrolled ? "bg-white" : "bg-transparent"
-      } flex w-full md:h-[100px] p-2.5 m-0`}
+      } flex w-full md:h-[80px] p-2.5 m-0`}
     >
       {/* Mobile view: logo and menu button */}
       <div className="w-full h-20 px-2 py-2 sm:hidden flex justify-between">
@@ -87,7 +87,7 @@ function Header() {
           data-aos="fade-right"
             src={SaloonLogo}
             alt="Saloon Logo"
-            className="h-[50px] w-full object-contain object-center m-0 p-0 flex justify-center items-center hover:scale-110 transform transition-transform duration-300 cursor-pointer"
+            className="h-[50px] w-full object-contain object-center m-0 p-0  hover:scale-110 transform transition-transform duration-300 cursor-pointer"
           />
         </Link>
       </div>
@@ -122,9 +122,9 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div className="hidden sm:flex justify-end items-center w-1/4 pr-2.5 m-0">
-        <button data-aos="fade-left" className="transition-all duration-700 ease-in-out font-sans text-lg font-medium px-4 py-2 bg-white text-customRed rounded-full hover:bg-customRed hover:text-white hover:scale-110">
-          Book an Appointment
+      <div className="hidden sm:flex justify-center items-center w-1/4 pr-2.5 m-0">
+        <button data-aos="fade-left" className="hover:scale-110 transform transition-transform duration-300 ease-in-out font-sans text-lg font-normal px-2 py-2 bg-white text-customRed rounded hover:bg-customRed hover:text-white">
+          <a href="#services">Book an Appointment</a>
         </button>
       </div>
     </header>
