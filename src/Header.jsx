@@ -84,10 +84,9 @@ function Header() {
       <div data-aos="fade-right"  className="hidden transition-all duration-700 ease-in-out  sm:flex justify-center items-center w-1/4 p-2.5 m-0">
         <Link to="hero" smooth={true} duration={500}>
           <img
-          data-aos="fade-right"
             src={SaloonLogo}
             alt="Saloon Logo"
-            className="h-[50px] w-full object-contain object-center m-0 p-0  hover:scale-110 transform transition-transform duration-300 cursor-pointer"
+            className="h-[50px] w-full object-contain object-center m-0 p-0 hover:scale-110 transform transition-transform duration-300 cursor-pointer"
           />
         </Link>
       </div>
@@ -122,9 +121,9 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div className="hidden sm:flex justify-center items-center w-1/4 pr-2.5 m-0">
-        <button data-aos="fade-left" className="hover:scale-110 transform transition-transform duration-300 ease-in-out font-sans text-lg font-normal px-2 py-2 bg-white text-customRed rounded hover:bg-customRed hover:text-white">
-          <a href="#services">Book an Appointment</a>
+      <div data-aos="fade-left" className="hidden sm:flex justify-center items-center w-1/4 pr-2.5 m-0 transition-all duration-700 ease-in-out">
+        <button className="font-sans text-lg font-normal px-2 py-2 bg-white text-customRed rounded hover:bg-customRed hover:text-white hover:scale-110 transform transition-transform duration-300 ">
+          <a href="#">Book an Appointment</a>
         </button>
       </div>
     </header>
