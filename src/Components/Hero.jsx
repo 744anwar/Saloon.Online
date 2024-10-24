@@ -21,24 +21,24 @@ const Hero = () => {
     backgroundImage: `url(${bgImage})`,
   };
   return (
-    <section id="hero" className="w-full h-[750px] md:h-[calc(100%-100px)] grid grid-cols-1 md:grid-cols-1 p-0 -mt-[100px] ">
-      <div
+    <section id="hero" className="w-full h-[750px] md:h-[calc(100%-80px)] grid grid-cols-1 md:grid-cols-1 p-0 -mt-[80px] ">
+      <div 
         className="md:h-[560px] md:w-[43%] bg-cover bg-right-top bg-no-repeat -z-10 absolute md:left-[60%] md:top-0"
         style={StyleImage}
       >
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:w-auto h-[400px] md:h-[550px]">
-      <div className="pt-24 md:pt-40 p-0 m-0 block gap-2 md:gap-5 w-auto h-[330px] md:h-[400px] ">
-        <h2 className="font-sans text-xl md:text-3xl tracking-wide md:tracking-wide font-bold md:font-bold capitalize text-customRed pl-5 md:pl-20 py-1 md:py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:w-full h-[400px] md:h-[550px]">
+      <div className="pt-24 md:pt-40 p-0 m-0 gap-2 md:gap-2 w-full h-[330px] md:h-[400px] flex flex-col justify-between">
+        <h2 className="font-sans text-xl md:text-3xl font-bold md:font-bold capitalize text-customRed pl-5 md:pl-20 py-1 md:py-0">
           your hassle free 
         </h2>
-        <h2 className="font-sans text-xl md:text-3xl tracking-wide md:tracking-wide font-bold md:font-bold capitalize text-Gray pl-5 md:pl-20 py-1 md:py-3">
+        <h2 className="font-sans text-xl md:text-3xl font-bold md:font-bold capitalize text-Gray pl-5 md:pl-20 py-1 md:py-0">
           saloon.online booking
         </h2>
-        <h2 className="font-sans text-xl md:text-3xl tracking-wide md:tracking-wide font-bold md:font-bold capitalize text-Gray pl-5 md:pl-20 py-1 md:py-3">
+        <h2 className="font-sans text-xl md:text-3xl font-bold md:font-bold capitalize text-Gray pl-5 md:pl-20 py-1 md:py-0">
           solution
         </h2>
-        <p className="font-sans text-sm md:text-lg font-normal md:font-normal normal-case text-Gray px-5 text-justify md:pl-20 w-full md:w-2/3 py-1 md:py-2">
+        <p className="font-sans text-sm md:text-base font-normal md:font-normal normal-case text-Gray px-2 text-justify md:pl-20 w-full md:w-full py-1 md:py-2">
           We’ve designed the perfect solution to make your hair dressing
           appointments a breeze.
         </p>
