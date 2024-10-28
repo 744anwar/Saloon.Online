@@ -30,6 +30,7 @@ function Header() {
       duration:1000,
       easing:'ease-in-out',
       once:true,
+      offset:50,
     })
   }, []);
 
@@ -81,7 +82,7 @@ function Header() {
       )}
 
       {/* Desktop view */}
-      <div data-aos="fade-right"  className="hidden transition-all duration-700 ease-in-out  sm:flex justify-center items-center w-1/4 p-2.5 m-0">
+      <div data-aos="fade-down"  className="hidden transition-all duration-700 ease-in-out  sm:flex justify-center items-center w-1/4 p-2.5 m-0">
         <Link to="hero" smooth={true} duration={500}>
           <img
             src={SaloonLogo}
@@ -121,7 +122,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div data-aos="fade-left" className="hidden sm:flex justify-center items-center w-1/4 pr-2.5 m-0 transition-all duration-700 ease-in-out">
+      <div data-aos="fade-down" className="hidden sm:flex justify-center items-center w-1/4 pr-2.5 m-0 transition-all duration-700 ease-in-out">
         <button className="font-sans text-lg font-normal px-2 py-2 bg-white text-customRed rounded hover:bg-customRed hover:text-white hover:scale-110 transform transition-transform duration-300 ">
           <a href="#">Book an Appointment</a>
         </button>

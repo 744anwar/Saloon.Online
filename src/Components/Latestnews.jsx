@@ -72,7 +72,7 @@ function Latestnews() {
     <>
       <section
         id="latest-news"
-        className="w-full h-full grid justify-start items-start py-5"
+        className="w-full h-full grid justify-start items-start py-5 pt-[60px]"
       >
         <h1 className="font-sans text-center text-3xl font-bold text-customRed normal-case m-0 py-10">
           Get Latest News

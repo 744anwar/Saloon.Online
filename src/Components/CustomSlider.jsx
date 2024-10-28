@@ -67,7 +67,7 @@ const CustomSlider = () => {
 
   return (
     <>
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col items-center p-5 my-2.5">
       <div className="flex overflow-hidden w-full max-w-6xl" 
       onMouseEnter={() => setAutoplay(false)}
       onMouseLeave={() => setAutoplay(true)}

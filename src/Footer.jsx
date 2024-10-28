@@ -18,10 +18,11 @@ const Footer = () => {
     AOS.init({
       duration: 1000,
       once: true,
+      offset:50,
     });
   }, []);
   return (
-    <footer className="w-full h-full m-0 py-1 md:py-5 px-1 md:px-10 bg-[#F2F5F7] md:rounded-tl-[150px] md:rounded-tr-[150px] ">
+    <footer className="w-full h-screen m-0 py-1 md:py-5 px-1 md:px-10 bg-[#F2F5F7] md:rounded-tl-[150px] md:rounded-tr-[150px] ">
       <div className="flex flex-col justify-center items-center w-full">
         <h2
           data-aos="zoom-in"
@@ -40,14 +41,14 @@ const Footer = () => {
       </div>
       <div className="flex justify-between bg-customRed rounded-full md:rounded-full px-2 md:px-10 p-2 md:p-5 mx-2 md:mx-40 mt-2 md:mt-5">
         <input
-          data-aos="fade-right"
+          data-aos="zoom-in-right"
           className="scroll-smooth trasnition-all duration-700 ease-in-out rounded-full p-1 md:p-2.5 focus:outline-none font-sans font-normal normal-case text-base text-Gray bg-white"
           type="email"
           placeholder="example123@gmail.com"
           required
         />
         <button
-          data-aos="fade-left"
+          data-aos="zoom-in-left"
           className="scroll-smooth trasnition-all duration-700 ease-in-out bg-white text-customRed p-2 md:p-2.5 rounded-full font-sans font-medium md:font-semibold capitalize text-base md:text-2xl"
         >
           Subscribe
@@ -57,7 +58,7 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-center gap-2.5">
           <Link to="hero" smooth={true} duration={500}>
             <img
-              data-aos="fade-right"
+              data-aos="zoom-in-right"
               src={SaloonLogo}
               alt="saloon logo"
               className="scroll-smooth trasnition-all duration-700 ease-in-out h-20 w-full md:w-2/3 hover:cursor-pointer object-contain object-center"
@@ -79,7 +80,7 @@ const Footer = () => {
           <div className="flex flex-col space-y-4">
             <div className="flex justify-start items-baseline">
               <h2
-                data-aos="fade-down"
+                data-aos="zoom-in-down"
                 className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-medium text-lg capitalize text-Gray"
               >
                 phone:
@@ -90,7 +91,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-start items-baseline">
               <h2
-                data-aos="fade-left"
+                data-aos="zoom-in-left"
                 className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-medium text-lg capitalize text-Gray"
               >
                 email:
@@ -101,7 +102,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-start items-baseline">
               <h2
-                data-aos="fade-up"
+                data-aos="zoom-in-up"
                 className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans font-medium text-lg capitalize text-Gray"
               >
                 address:

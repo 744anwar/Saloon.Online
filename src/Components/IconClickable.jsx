@@ -85,7 +85,7 @@ const IconClickable = () => {
               className="md:h-12 h-10 w-10 md:w-20 hover:scale-110 transform transition-transform duration-500"
             />
           </button>
-          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-customRed px-2">
+          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             sign up
           </h2>
         </div>
@@ -97,7 +97,7 @@ const IconClickable = () => {
               className="md:h-12 h-10 w-10 md:w-20 hover:scale-110 transform transition-transform duration-500"
             />
           </button>
-          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-customRed px-2">
+          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Choose Saloon
           </h2>
         </div>
@@ -109,7 +109,7 @@ const IconClickable = () => {
               className="md:h-12 h-10 w-10 md:w-20 hover:scale-110 transform transition-transform duration-500"
             />
           </button>
-          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-customRed px-2">
+          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Select Variety of Services
           </h2>
         </div>{" "}
@@ -121,7 +121,7 @@ const IconClickable = () => {
               className="md:h-12 h-10 w-10 md:w-20 hover:scale-110 transform transition-transform duration-500"
             />
           </button>
-          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-customRed px-2">
+          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Select date & time
           </h2>
         </div>{" "}
@@ -133,11 +133,11 @@ const IconClickable = () => {
               className="md:h-12 h-10 w-10 md:w-20 hover:scale-110 transform transition-transform duration-500"
             />
           </button>
-          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-customRed px-2">
+          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Choose your Specialist
           </h2>
         </div>{" "}
-        <div className="flex h-12">
+        <div className="flex h-12 justify-center items-center">
           <button onClick={() => showImage("image-6")} data-showme="image-6">
             <img
               src={BookingIcon}
@@ -145,13 +145,13 @@ const IconClickable = () => {
               className="md:h-12 h-10 w-10 md:w-20 hover:scale-110 transform transition-transform duration-500"
             />
           </button>
-          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-customRed px-2">
+          <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Confirm your appointment
           </h2>
         </div>
         <div className="flex justify-between md:justify-between md:w-2/3 md:px-0 px-5 pt-2">
-          <img data-aos="fade-right" src={AppStore} alt="App Store logo" className="scroll-smooth transition-all duration-700 ease-in-out md:h-16 h-12 w-28 md:w-40" />
-          <img data-aos="fade-left" src={PlayStore} alt="Play store logo" className="scroll-smooth transition-all duration-700 ease-in-out md:h-16 h-12 w-28 md:w-40" />
+          <img data-aos="fade-right" src={AppStore} alt="App Store logo" className="scroll-smooth transition-all duration-700 ease-in-out md:h-20 h-12 w-28 md:w-40 object-contain" />
+          <img data-aos="fade-left" src={PlayStore} alt="Play store logo" className="scroll-smooth transition-all duration-700 ease-in-out md:h-20 h-12 w-28 md:w-40 object-contain" />
         </div>
       </div>
     </div>

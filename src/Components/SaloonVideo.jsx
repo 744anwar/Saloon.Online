@@ -32,16 +32,16 @@ const SaloonVideo = () => {
 
   return (
     <>
-      <div className="relative m-0 p-0 w-full h-[300px] pt-2.5">
+      <div className="relative m-0 p-0 w-full h-[500px] pt-2.5">
         <video
           ref={VideoRef}
           src={VideoPlay}
           autoPlay
           muted
           loop
-          className="w-full h-[300px] object-cover"
+          className="w-full h-[500px] object-cover"
         />
-        <div className="absolute top-2.5 left-0 w-full h-[300px] bg-customRed opacity-30 p-2.5 flex items-center justify-center">
+        <div className="absolute top-2.5 left-0 w-full h-[500px] bg-customRed opacity-30 p-2.5 flex items-center justify-center">
           <button
             onClick={handlePause}
             className="bg-customRed text-white px-4 py-2 rounded "
@@ -57,7 +57,7 @@ const SaloonVideo = () => {
       </div>
       <div className="m-0 p-0 md:p-2.5 grid grid-cols-1 md:grid-cols-2 justify-center items-center w-full h-[400px] md:h-[400px] ">
         <div data-aos="fade-right" className="scroll-smooth trasnition-all duration-700 ease-in-out w-full h-[200px] md:h-[300px] flex flex-col justify-center items-start m-2.5 p-0 md:p-20">
-          <h2 className="font-sans text-customRed font-semibold text-base md:text-xl pt-2.5">Designed & Developed on Latest Tech</h2>
+          <h2 className="font-sans text-customRed font-semibold md:font-bold text-base md:text-2xl py-2.5 ">Designed & Developed on Latest Tech</h2>
           <p className="font-sans text-Gray font-normal text-base text-justify">
             Our Website & App is skillfully crafted using WordPress for
             versatile content management, .Net for robust backend functionality,

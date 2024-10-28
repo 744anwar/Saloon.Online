@@ -55,7 +55,7 @@ const FAQSection = () => {
 
   return (
     <>
-      <div id="faq" className="grid grid-cols-1 justify-items-center pt-16">
+      <div id="faq" className="grid grid-cols-1 justify-items-center pt-[100px] ">
         <h2 className="font-sans text-4xl font-bold normal-case text-customRed w-full text-center pb-5">
           FAQ
         </h2>
