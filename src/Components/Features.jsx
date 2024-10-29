@@ -18,7 +18,7 @@ function Features() {
     <>
       <section
         id="features"
-        className="w-full h-auto p-2.5 m-0 pt-16 md:pt-[100px] "
+        className="w-full h-auto p-2.5 m-0 pt-[100px] md:pt-[100px] "
       >
         <h1 className="text-center text-customRed text-2xl md:text-4xl font-bold font-sans normal-case md:pb-1">
           Features of App

@@ -35,7 +35,7 @@ useEffect(() => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 h-[500px] gap-3 pt-2.5 md:pt-5">
           <div className="grid grid-cols-1 px-5 md:pl-10">
-            <h2 className="font-sans text-2xl font-bold capitalize text-black">
+            <h2 className="font-sans text-2xl font-bold capitalize text-black md:text-left text-center">
               Customer Services
             </h2>
             <div className="gap-1 md:gap-3">
@@ -96,7 +96,7 @@ useEffect(() => {
             />
           </div>
           <div className="grid grid-cols-1 px-5 md:pr-10">
-            <h2 className="font-sans text-2xl font-bold capitalize text-black">
+            <h2 className="font-sans text-2xl font-bold capitalize text-black md:text-left text-center">
               Barber Services
             </h2>
             <div className="gap-1 md:gap-3">

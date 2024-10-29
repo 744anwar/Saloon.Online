@@ -112,7 +112,7 @@ const IconClickable = () => {
           <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Select Variety of Services
           </h2>
-        </div>{" "}
+        </div>
         <div className="flex h-12">
           <button onClick={() => showImage("image-4")} data-showme="image-4">
             <img
@@ -124,7 +124,7 @@ const IconClickable = () => {
           <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Select date & time
           </h2>
-        </div>{" "}
+        </div>
         <div className="flex h-12">
           <button onClick={() => showImage("image-5")} data-showme="image-5">
             <img
@@ -136,8 +136,8 @@ const IconClickable = () => {
           <h2 className="h-12 flex justify-center items-center md:items-start w-auto font-sans font-medium capitalize text-base md:text-2xl text-[#3d3d3d] px-2">
             Choose your Specialist
           </h2>
-        </div>{" "}
-        <div className="flex h-12 justify-center items-center">
+        </div>
+        <div className="flex h-12">
           <button onClick={() => showImage("image-6")} data-showme="image-6">
             <img
               src={BookingIcon}
