@@ -88,8 +88,8 @@ const FAQSection = () => {
         ))}
       </div>
       <div className="grid grid-cols-1 justify-items-center pt-2.5 md:pt-10"> 
-        <h2 data-aos="zoom-in" className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans text-xl md:text-4xl font-bold normal-case text-customRed text-center">Get in Saloon Reasonable Price</h2>
-        <p className="font-sans text-lg font-normal normal-case text-Gray text-center px-1 md:px-96">
+        <h2 data-aos="zoom-in" className="scroll-smooth trasnition-all duration-700 ease-in-out font-sans text-xl md:text-4xl font-bold normal-case text-customRed text-center py-2 md:py-2.5">Get in Saloon Reasonable Price</h2>
+        <p className="font-sans text-lg font-normal normal-case text-Gray text-center px-1 md:px-96 py-1 md:py-2.5">
           Experience quality services at budget-friendly rates with our
           transparent and reasonable pricing structure.
         </p>

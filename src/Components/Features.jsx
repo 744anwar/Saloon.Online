@@ -51,10 +51,10 @@ function Features() {
               alt="icon"
               className="scroll-smooth transition-all duration-700 ease-in-out md:h-40 h-24 w-20 md:w-40 p-0 md:p-0"
             />
-            <h2 className="font-sans font-medium text-2xl normal-case text-center text-black">
+            <h2 className="font-sans font-medium text-2xl normal-case text-center text-black py-2.5">
               Online Booking
             </h2>
-            <p className="font-sans font-normal text-base normal-case text-Gray text-center">
+            <p className="font-sans font-normal text-base normal-case text-Gray text-center py-1">
               Schedule your saloon visits with ease using our convenient online
               booking system.
             </p>
@@ -66,10 +66,10 @@ function Features() {
               alt="icon"
               className="scroll-smooth transition-all duration-700 ease-in-out md:h-40 h-24 w-20 md:w-40 p-0 md:p-0"
             />
-            <h2 className="font-sans font-medium text-2xl normal-case text-center text-black">
+            <h2 className="font-sans font-medium text-2xl normal-case text-center text-black py-2.5">
               Home Services
             </h2>
-            <p className="font-sans font-normal text-base normal-case text-Gray text-center">
+            <p className="font-sans font-normal text-base normal-case text-Gray text-center py-1">
               Enjoy saloon-quality services in the comfort of your own home with
               our home service options.
             </p>
@@ -81,20 +81,20 @@ function Features() {
               alt="icon"
               className="scroll-smooth transition-all duration-700 ease-in-out md:h-40 h-24 w-20 md:w-40 p-0 md:p-0"
             />
-            <h2 className="font-sans font-medium text-2xl normal-case text-center text-black">
+            <h2 className="font-sans font-medium text-2xl normal-case text-center text-black py-2.5">
               Shop Management
             </h2>
-            <p className="font-sans font-normal text-base normal-case text-Gray text-center">
-              Empower barbers to efficiently manage their shops, services, and
-              staff with our comprehensive management tools.
+            <p className="font-sans font-normal text-base normal-case text-Gray text-center py-1">
+              Empower barbers to efficiently manage their shops, services and
+              staff with management tools.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-1 justify-items-center w-full p-5 m-0">
-          <h2 className="font-sans font-medium md:font-semibold normal-case text-2xl md:text-4xl text-customRed md:pt-2.5">
+          <h2 className="font-sans font-medium md:font-semibold normal-case text-2xl md:text-4xl text-customRed md:py-5">
             How it Works
           </h2>
-          <p className="font-sans font-normal normal-case text-base text-Gray pt-1 text-justify md:text-center w-full md:w-1/2">
+          <p className="font-sans font-normal normal-case text-base text-Gray py-2.5 text-justify md:text-center w-full md:w-1/2">
             Experience the ease of the Saloon.Online App, your trusted companion
             for seamless saloon reservations. Here is how it works:
           </p>
