@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faInstagram,
-  faXTwitter,
+  // faXTwitter,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 import AOS from "aos";
@@ -18,11 +18,11 @@ const Footer = () => {
     AOS.init({
       duration: 1000,
       once: true,
-      offset:50,
+      offset: 50,
     });
   }, []);
   return (
-    <footer className="w-full h-screen m-0 py-1 md:py-5 px-1 md:px-10 bg-[#F2F5F7] md:rounded-tl-[150px] md:rounded-tr-[150px] ">
+    <footer className="w-full h-full m-0 py-1 md:py-5 px-1 md:px-10 bg-[#F2F5F7] md:rounded-tl-[150px] md:rounded-tr-[150px] ">
       <div className="flex flex-col justify-center items-center w-full">
         <h2
           data-aos="zoom-in"
@@ -128,10 +128,10 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faFacebookF}
-              size="2x"
-              className=" text-[#9c3435] "
+              // size="2x"
+              className=" text-[#9c3435] h-5 w-5"
             />
-            <h2 className="font-sans font-medium text-2xl text-Gray capitalize ">
+            <h2 className="font-sans font-medium text-lg text-Gray capitalize ">
               facebook
             </h2>
           </a>
@@ -143,10 +143,10 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faInstagram}
-              size="2x"
-              className=" text-[#9c3435] "
+              // size="2x"
+              className=" text-[#9c3435] h-5 w-5"
             />
-            <h2 className="font-sans font-medium text-2xl text-Gray capitalize ">
+            <h2 className="font-sans font-medium text-lg text-Gray capitalize ">
               instagram
             </h2>
           </a>
@@ -158,14 +158,14 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faTiktok}
-              size="2x"
-              className=" text-[#9c3435] "
+              //size="2x"
+              className=" text-[#9c3435] h-5 w-5"
             />
-            <h2 className="font-sans font-medium text-2xl text-Gray capitalize ">
+            <h2 className="font-sans font-medium text-lg text-Gray capitalize ">
               tiktok
             </h2>
           </a>
-          <a
+          {/* <a
             data-aos="fade-up"
             href="https://twitter.com/?lang=en"
             target="_blank"
@@ -173,13 +173,13 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faXTwitter}
-              size="2x"
-              className=" text-[#9c3435] "
+              //size="2x"
+              className=" text-[#9c3435] h-5 w-5"
             />
-            <h2 className="font-sans font-medium text-2xl text-Gray capitalize ">
+            <h2 className="font-sans font-medium text-lg text-Gray capitalize ">
               twitter
             </h2>
-          </a>
+          </a> */}
         </div>
         <div className="grid grid-cols-1  px-2 gap-2">
           <h2
