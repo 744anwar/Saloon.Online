@@ -13,6 +13,7 @@ import Header from "./Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./Footer.jsx";
 import './index.css';
+import ScrollToTopButton from "./Components/ScrollToTopButton.jsx";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         />
       </Routes>
       <Footer />
+      <ScrollToTopButton />
     </Router>
   );
 }
