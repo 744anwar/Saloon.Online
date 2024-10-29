@@ -19,7 +19,7 @@ function Aboutus() {
     <>
       <section
         id="about-us"
-        className="w-full h-full md:h-screen grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5 pt-10 md:pt-[100px] p-2.5 md:p-5 md:justify-items-center"
+        className="w-full h-full md:h-screen grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5 pt-[110px] md:pt-[100px] p-2.5 md:p-5 md:justify-items-center"
       >
         <div className="m-0 px-2 md:pl-5 grid grid-cols-2 h-80 md:h-80 gap-2 md:gap-2.5">
           <div className="">

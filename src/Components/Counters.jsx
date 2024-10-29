@@ -21,7 +21,7 @@ const Counter = ({ title, toValue, suffix }) => {
   }, [toValue]);
 
   return (
-    <div className="gap-0 py-10 align-baseline ">
+    <div className="gap-0 py-2.5 md:py-10 justify-start align-baseline h-[50px] md:h-5">
       <span className="font-sans font-medium text-xl md:text-4xl text-customRed gap-0">
         {count}
       </span>
