@@ -29,7 +29,7 @@ const Hero = () => {
       >
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:w-full h-[400px] md:h-[550px]">
-      <div className="pt-24 md:pt-40 p-0 m-0 gap-2 md:gap-2 w-full h-[330px] md:h-[400px] flex flex-col justify-between">
+      <div className="pt-20 md:pt-40 p-0 m-0 gap-1 md:gap-2 w-full h-[330px] md:h-[400px] flex flex-col justify-between">
         <h2 className="font-sans text-xl md:text-3xl font-bold md:font-bold capitalize text-customRed pl-5 md:pl-20 py-1 md:py-0">
           your hassle free 
         </h2>
