@@ -17,6 +17,7 @@ import ScrollToTopButton from "./Components/ScrollToTopButton.jsx";
 
 function App() {
   return (
+    <div className="w-full">
     <Router>
       <Header />
       <Routes>
@@ -42,6 +43,7 @@ function App() {
       <Footer />
       <ScrollToTopButton />
     </Router>
+    </div>
   );
 }
 
