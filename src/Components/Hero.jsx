@@ -1,4 +1,4 @@
-import bgImage from "../assets/saloonelipse.png";
+import bgImage from "../assets/hero-banner.png";
 import SaloonPlaystore from "../assets/playstore.png";
 import SaloonAppstore from "../assets/appstore.png";
 import saloon1 from "../assets/Group18051.png";
@@ -39,7 +39,7 @@ const Hero = () => {
         <h2 className="font-sans text-xl md:text-3xl font-bold md:font-bold capitalize text-Gray pl-5 md:pl-20 py-1 md:py-0">
           solution
         </h2>
-        <p className="font-sans text-sm md:text-base font-normal md:font-normal normal-case text-Gray px-2 text-justify md:pl-20 w-full md:w-full py-1 md:py-2">
+        <p className="font-sans text-sm md:text-base font-normal md:font-normal normal-case text-Gray px-2 text-justify md:pl-20 w-full md:w-2/3 py-1 md:py-2">
           We’ve designed the perfect solution to make your hair dressing
           appointments a breeze.
         </p>

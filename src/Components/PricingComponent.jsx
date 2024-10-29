@@ -12,13 +12,14 @@ const PricingComponent = () => {
       duration: 1000,
       easing:'ease-in-out',
       once:true,
+      offset:50,
     })
   },[]);
 
   return (
     <div className="flex flex-col items-center justify-center py-10">
       {/* Toggle Switch */}
-      <div className="flex items-center mb-8">
+      <div className="flex items-center mb-5">
         <span
           className={
             isYearly ? "text-Gray font-medium" : "text-customRed font-bold"
@@ -56,12 +57,12 @@ const PricingComponent = () => {
       {/* Pricing Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Basic Plan */}
-        <div data-aos="fade-right" className="scroll-smooth trasnition-all duration-700 ease-in-out cursor-pointer">
+        <div data-aos="fade-right" className="scroll-smooth trasnition-all duration-700 ease-in-out cursor-pointer min-h-[350px] w-full max-w-[320px] mx-auto">
           <h3 className="text-xl font-bold text-white bg-customRed text-center p-2">
             Basic
           </h3>
           <p className="text-4xl font-bold my-4 text-center">
-            ${isYearly ? "100" : "10"}{" "}
+            ${isYearly ? "100" : "10"}
             <span className="text-lg">/ {isYearly ? "Yearly" : "Monthly"}</span>
           </p>
           <ul className="mb-6">
@@ -101,12 +102,12 @@ const PricingComponent = () => {
         </div>
 
         {/* Premiere Plan */}
-        <div data-aos="fade-left" className="scroll-smooth trasnition-all duration-700 ease-in-out cursor-pointer">
+        <div data-aos="fade-left" className="scroll-smooth trasnition-all duration-700 ease-in-out cursor-pointer min-h-[350px] w-full max-w-[320px] mx-auto">
           <h3 className="text-xl font-bold text-white bg-customRed text-center p-2">
             Premiere
           </h3>
           <p className="text-4xl font-bold my-4 text-center">
-            ${isYearly ? "150" : "100"}{" "}
+            ${isYearly ? "150" : "100"}
             <span className="text-lg">/ {isYearly ? "Yearly" : "Monthly"}</span>
           </p>
           <ul className="mb-6">
@@ -134,8 +135,7 @@ const PricingComponent = () => {
                 className="relative text-customRed bg-none border-2 border-customRed rounded-full p-1 w-5 h-5"
               />
               <p className="font-sans text-lg font-normal normal-case text-Gray">
-                {" "}
-                Service & Staff Registration :{" "}
+                Service & Staff Registration :
                 {isYearly ? "Unlimited" : "Limited"}
               </p>
             </li>
